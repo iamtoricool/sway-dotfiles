@@ -1,0 +1,3 @@
+
+# Include Window Rules
+include ./window_rules/*

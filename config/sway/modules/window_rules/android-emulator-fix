@@ -1,0 +1,5 @@
+for_window [title="Android Emulator - *"] {
+  floating enable
+  border normal
+}
+for_window [title="Emulator" window_type="utility"] move scratchpad

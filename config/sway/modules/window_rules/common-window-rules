@@ -1,0 +1,6 @@
+#No titlebars
+default_border pixel
+
+# Window Gaps
+gaps inner 10
+# gaps outer 5
