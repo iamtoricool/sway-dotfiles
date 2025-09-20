@@ -1,3 +1,4 @@
 
 # Include Window Rules
 include ./window_rules/*
+include ./keybinds/*
