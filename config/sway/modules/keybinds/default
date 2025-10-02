@@ -1,3 +1,6 @@
+# Screenshot and Annotation
 set $screenshot_command grim -g "$(slurp)" - | satty -f -
-
 bindsym Print exec $screenshot_command
+
+# Lock Screen
+bindsym $mod+f1 exec swaylock

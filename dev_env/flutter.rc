@@ -3,3 +3,6 @@ export PATH="$PATH":"$HOME/fvm/default/bin"
 
 # Add Chrome Executable Variable
 # export CHROME_EXECUTABLE="$(which brave)"
+
+# Export Dart Environment Path
+export PATH="$PATH":"$HOME/.pub-cache/bin"
