@@ -4,3 +4,8 @@ default_border pixel
 # Window Gaps
 gaps inner 10
 # gaps outer 5
+
+
+# App Specific Rules
+# Localsend
+for_window [app_id="localsend"] floating enable
