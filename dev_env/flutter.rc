@@ -1,6 +1,9 @@
 # Add Flutter SDK Path
 export PATH="$PATH":"$HOME/fvm/default/bin"
 
+# Add Dart executables to path
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
 # Add Chrome Executable Variable
 # export CHROME_EXECUTABLE="$(which brave)"
 

@@ -1,6 +1,12 @@
-# Screenshot and Annotation
+# Script Directory
+set $custom_script_dir $HOME/dotfiles/config/sway/modules/scripts
+
+# Screenshot Tool
 set $screenshot_command grim -g "$(slurp)" - | satty -f -
 bindsym Print exec $screenshot_command
+
+# Screenshot Active Window
+bindsym $mod+Print exec bash $custom_script_dir/window_screenshot.sh
 
 # Lock Screen
 bindsym $mod+f1 exec swaylock
