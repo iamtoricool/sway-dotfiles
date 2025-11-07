@@ -1,0 +1,41 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "mcp": {
+        "mobile-mcp": {
+            "type": "local",
+            "enabled": true,
+            "command": [
+                "npx",
+                "-y",
+                "@mobilenext/mobile-mcp@latest"
+            ]
+        },
+        "gitmcp": {
+            "enabled": true,
+            "type": "local",
+            "command": [
+                "npx",
+                "mcp-remote",
+                "https://gitmcp.io/{owner}/{repo}"
+            ]
+        },
+        "talk-to-figma-mcp": {
+            "type": "local",
+            "enabled": true,
+            "command": [
+                "bunx",
+                "cursor-talk-to-figma-mcp@latest"
+            ]
+        },
+        "docker-mcp": {
+            "enabled": true,
+            "type": "local",
+            "command": [
+                "docker",
+                "mcp",
+                "gateway",
+                "run"
+            ],
+        }
+    },
+}
