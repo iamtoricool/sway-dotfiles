@@ -9,3 +9,6 @@ gaps inner 10
 # App Specific Rules
 # Localsend
 for_window [app_id="localsend"] floating enable
+
+# Galculator
+for_window [app_id="galculator"] floating enable
