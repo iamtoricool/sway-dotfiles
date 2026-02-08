@@ -10,22 +10,18 @@
                 "@mobilenext/mobile-mcp@latest"
             ]
         },
-        "gitmcp": {
+        "git-mcp": {
+            "type": "remote",
             "enabled": true,
-            "type": "local",
-            "command": [
-                "npx",
-                "mcp-remote",
-                "https://gitmcp.io/{owner}/{repo}"
-            ]
+            "url": "https://gitmcp.io/{owner}/{repo}",
         },
-        "talk-to-figma-mcp": {
+        "talk-to-figma": {
             "type": "local",
             "enabled": true,
             "command": [
                 "bunx",
                 "cursor-talk-to-figma-mcp@latest"
-            ]
+            ],
         },
         "docker-mcp": {
             "enabled": true,
@@ -36,6 +32,21 @@
                 "gateway",
                 "run"
             ],
-        }
+        },
+        "dart-mcp": {
+            "enabled": true,
+            "type": "local",
+            "command": [
+                "dart",
+                "mcp-server"
+            ],
+        },
+        "slang-mcp": {
+            "enabled": true,
+            "type": "local",
+            "command": [
+                "slang_mcp"
+            ],
+        },
     },
 }
