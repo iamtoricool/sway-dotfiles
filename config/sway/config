@@ -236,6 +236,7 @@ bar {
   swaybar_command waybar
 }
 
+exec /usr/bin/lxqt-policykit-agent
 include /etc/sway/config.d/*
 
 include ./modules/modules.export

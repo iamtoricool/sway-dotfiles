@@ -1,55 +1,55 @@
 {
-    "$schema": "https://opencode.ai/config.json",
-    "mcp": {
-        "mobile-mcp": {
-            "type": "local",
-            "enabled": true,
-            "command": [
-                "npx",
-                "-y",
-                "@mobilenext/mobile-mcp@latest"
-            ]
-        },
-        "git-mcp": {
-            "type": "remote",
-            "enabled": true,
-            "url": "https://gitmcp.io/{owner}/{repo}",
-        },
-        "talk-to-figma": {
-            "type": "local",
-            "enabled": true,
-            "command": [
-                "bunx",
-                "cursor-talk-to-figma-mcp@latest"
-            ],
-        },
-        "docker-mcp": {
-            "enabled": true,
-            "type": "local",
-            "command": [
-                "docker",
-                "mcp",
-                "gateway",
-                "run"
-            ],
-        },
-        "dart-mcp": {
-            "enabled": true,
-            "type": "local",
-            "command": [
-                "dart",
-                "mcp-server"
-            ],
-        },
-        "slang-mcp": {
-            "enabled": true,
-            "type": "local",
-            "command": [
-                "slang_mcp"
-            ],
-        },
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "mobile-mcp": {
+      "type": "local",
+      "enabled": true,
+      "command": [
+        "npx",
+        "-y",
+        "@mobilenext/mobile-mcp@latest"
+      ]
     },
-    "plugin": [
-        "opencode-google-antigravity-auth@latest"
-    ]
+    "git-mcp": {
+      "type": "remote",
+      "enabled": true,
+      "url": "https://gitmcp.io/{owner}/{repo}"
+    },
+    "talk-to-figma-mcp": {
+      "type": "local",
+      "enabled": true,
+      "command": [
+        "bunx",
+        "cursor-talk-to-figma-mcp@latest"
+      ]
+    },
+    "docker-mcp": {
+      "type": "local",
+      "enabled": true,
+      "command": [
+        "docker",
+        "mcp",
+        "gateway",
+        "run"
+      ]
+    },
+    "dart-mcp": {
+      "type": "local",
+      "enabled": true,
+      "command": [
+        "dart",
+        "mcp-server"
+      ]
+    },
+    "slang-mcp": {
+      "type": "local",
+      "enabled": true,
+      "command": [
+        "slang_mcp"
+      ]
+    }
+  },
+  "plugin": [
+    "opencode-google-antigravity-auth@latest"
+  ]
 }
