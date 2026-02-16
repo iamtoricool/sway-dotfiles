@@ -12,3 +12,6 @@ for_window [app_id="localsend"] floating enable
 
 # Galculator
 for_window [app_id="galculator"] floating enable
+
+# Satty
+for_window [app_id="com.gabm.satty"] floating enable, resize set 1498 792, move position 227 107
