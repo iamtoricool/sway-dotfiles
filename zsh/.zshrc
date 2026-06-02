@@ -103,15 +103,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# bun completions
-[ -s "/home/elliot/.bun/_bun" ] && source "/home/elliot/.bun/_bun"
-
-# FVM
-export PATH="/home/elliot/.fvm_flutter/bin:$PATH"
-
-## [Completion]
-## Completion scripts setup. Remove the following line to uninstall
-[[ -f /home/elliot/.dart-cli-completion/zsh-config.zsh ]] && . /home/elliot/.dart-cli-completion/zsh-config.zsh || true
-## [/Completion]
-
-export PATH="/home/elliot/.shorebird/bin:$PATH"
+# opencode
+export PATH=/home/elliot/.opencode/bin:$PATH

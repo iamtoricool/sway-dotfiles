@@ -1,22 +1,5 @@
-# FVM
-export PATH="/home/elliot/.fvm_flutter/bin:$PATH"
+# Dev env moved to distrobox container
+# Enter with: distrobox enter flutter-dev
+# Create with: distrobox assemble create --file $HOME/dotfiles/dev_env/flutter/distrobox.ini
 
-## [Completion]
-## Completion scripts setup. Remove the following line to uninstall
-[[ -f /home/elliot/.dart-cli-completion/zsh-config.zsh ]] && . /home/elliot/.dart-cli-completion/zsh-config.zsh || true
-## [/Completion]
-
-# Add Flutter SDK Path
-export PATH="$PATH":"$HOME/fvm/default/bin"
-
-# Add Dart executables to path
-export PATH="$PATH":"$HOME/.pub-cache/bin"
-
-# Add Chrome Executable Variable
-export CHROME_EXECUTABLE="$(which brave)"
-
-# Export Dart Environment Path
-export PATH="$PATH":"$HOME/.pub-cache/bin"
-
-# Export Shorebird Path
-export PATH="$PATH":"$HOME/.shorebird/bin"
+alias dev="distrobox enter flutter-dev"
