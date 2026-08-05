@@ -1,1 +1,2 @@
+# Personal: adjust to your monitor(s). Run `swaymsg -t get_outputs` to list.
 output HDMI-A-1 mode 1920x1080@100Hz

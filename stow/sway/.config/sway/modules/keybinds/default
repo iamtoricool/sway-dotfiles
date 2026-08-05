@@ -1,5 +1,5 @@
 # Script Directory
-set $custom_script_dir $HOME/dotfiles/config/sway/modules/scripts
+set $custom_script_dir $HOME/.config/sway/modules/scripts
 
 # Screenshot Tool
 set $screenshot_command grim -g "$(slurp)" - | satty -f -

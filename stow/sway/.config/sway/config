@@ -18,7 +18,7 @@ set $right l
 set $term alacritty
 # Your preferred application launcher
 # set $menu wmenu-run
-set $menu rofi -show drun -modi "drun" -show-icons -theme /usr/share/rofi/themes/Arc-Dark.rasi
+set $menu rofi -show drun -modi "drun" -show-icons -theme $HOME/.config/rofi/space-indigo.rasi
 
 
 ### Output configuration
