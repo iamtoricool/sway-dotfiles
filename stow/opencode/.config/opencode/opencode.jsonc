@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "talk-to-figma-mcp": {
+      "type": "local",
+      "enabled": true,
+      "command": ["bunx", "cursor-talk-to-figma-mcp@latest"],
+    },
+  },
+  "plugin": [],
+  "provider": {},
+}

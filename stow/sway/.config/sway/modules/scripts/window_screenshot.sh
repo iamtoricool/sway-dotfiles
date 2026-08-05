@@ -8,9 +8,6 @@ geom=$(swaymsg -t get_tree | jq -r '
   // (.. | .floating_nodes?[]? | select(.focused) | "\(.rect.x),\(.rect.y) \(.rect.width)x\(.rect.height)")
 ')
 
-# Debug: print geometry for verifying
-echo "DEBUG: geometry = $geom" >&2
-
 if [ -n "$geom" ]; then
   grim -g "$geom" - | satty -f -
 else

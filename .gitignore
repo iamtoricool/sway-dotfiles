@@ -1,0 +1,14 @@
+# Local / personal overrides (not shared)
+local/
+
+# Node (opencode plugin deps)
+node_modules/
+package.json
+package-lock.json
+bun.lock
+
+# Editor / OS junk
+.DS_Store
+*.swp
+*.swo
+*~

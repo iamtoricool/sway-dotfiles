@@ -1,0 +1,3 @@
+[preferred]
+default=keepassxc
+org.freedesktop.impl.portal.Secret=keepassxc
